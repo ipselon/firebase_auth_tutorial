@@ -9,8 +9,9 @@
   },
   "repository": {
     "type": "",
-    "url": ""
+    "url": "https://github.com/ipselon/firebase_auth_tutorial"
   },
+  "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
@@ -24,7 +25,8 @@
     "start": "cross-env NODE_PATH=./src react-scripts start",
     "build": "cross-env NODE_PATH=./src react-scripts build",
     "test": "react-scripts test --modulePaths=src",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,5 +36,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "serve": "^11.0.0"
+  }
 }

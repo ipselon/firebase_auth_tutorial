@@ -91,7 +91,7 @@ SignUpForm.propTypes = {
   isLoading: PropTypes.bool,
   // displays a global error text in top of the form
   error: PropTypes.string,
-  // fires when the user clicks on the `Submit` buttom
+  // fires when the user clicks on the `Create Account` button
   onSubmit: PropTypes.func,
 };
 
