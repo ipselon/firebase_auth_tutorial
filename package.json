@@ -1,0 +1,38 @@
+{
+  "name": "firebase_auth_tutorial",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Authentication in Firebase tutorial for Webcodesk",
+  "author": {
+    "name": "Oleksandr Pustovalov",
+    "email": "apustovalov@gmail.com"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@webcodesk/react-scripts": "2.1.9",
+    "firebase": "^5.9.3",
+    "lodash": "^4.17.11",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "start": "cross-env NODE_PATH=./src react-scripts start",
+    "build": "cross-env NODE_PATH=./src react-scripts build",
+    "test": "react-scripts test --modulePaths=src",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

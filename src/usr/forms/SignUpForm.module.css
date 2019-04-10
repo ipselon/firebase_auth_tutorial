@@ -1,0 +1,17 @@
+
+.root {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 1em;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(20px, 1fr);
+  max-width: 450px;
+  min-width: 350px;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
