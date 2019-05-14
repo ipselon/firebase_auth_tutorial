@@ -1,2 +1,0 @@
-
-export default [{"type":"component","props":{"componentName":"usr.forms.UserProfile","componentInstance":"userProfile"},"events":[{"name":"onMount","targets":[{"type":"userFunction","props":{"functionName":"usr.api.authenticationFunctions.checkUserProfile"},"events":[{"name":"authenticated","targets":[{"type":"component","props":{"componentName":"usr.forms.UserProfile","componentInstance":"userProfile","propertyName":"data"}}]},{"name":"notAuthenticated","targets":[{"type":"component","props":{"forwardPath":"auth/sign_in"}}]}]}]}]}];

@@ -1,1 +1,0 @@
-{"pageName":"sign_up","pagePath":"auth/sign_up","metaData":{},"componentsTree":{"type":"pageComponent","props":{"componentName":"usr.layouts.PageLayout","componentInstance":"pageLayout"},"children":[{"type":"pageComponent","props":{"componentName":"usr.forms.SignUpForm","componentInstance":"signUpForm","elementProperty":"cell"}}]}}
